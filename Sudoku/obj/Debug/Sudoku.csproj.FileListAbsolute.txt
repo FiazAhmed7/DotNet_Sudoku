@@ -1,0 +1,9 @@
+C:\Fiaz\DotNet\Sudoku1\bin\Debug\Sudoku1.exe.config
+C:\Fiaz\DotNet\Sudoku1\bin\Debug\Sudoku1.exe
+C:\Fiaz\DotNet\Sudoku1\bin\Debug\Sudoku1.pdb
+C:\Fiaz\DotNet\Sudoku1\obj\Debug\Sudoku.csprojResolveAssemblyReference.cache
+C:\Fiaz\DotNet\Sudoku1\obj\Debug\Sudoku.Form1.resources
+C:\Fiaz\DotNet\Sudoku1\obj\Debug\Sudoku.Properties.Resources.resources
+C:\Fiaz\DotNet\Sudoku1\obj\Debug\Sudoku.csproj.GenerateResource.Cache
+C:\Fiaz\DotNet\Sudoku1\obj\Debug\Sudoku1.exe
+C:\Fiaz\DotNet\Sudoku1\obj\Debug\Sudoku1.pdb
