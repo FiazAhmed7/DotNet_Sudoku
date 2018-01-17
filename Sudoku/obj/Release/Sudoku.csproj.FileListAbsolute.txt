@@ -1,0 +1,8 @@
+C:\Fiaz\DotNet\Sudoku\bin\Release\Sudoku1.exe.config
+C:\Fiaz\DotNet\Sudoku\bin\Release\Sudoku1.exe
+C:\Fiaz\DotNet\Sudoku\bin\Release\Sudoku1.pdb
+C:\Fiaz\DotNet\Sudoku\obj\Release\Sudoku.Form1.resources
+C:\Fiaz\DotNet\Sudoku\obj\Release\Sudoku.Properties.Resources.resources
+C:\Fiaz\DotNet\Sudoku\obj\Release\Sudoku.csproj.GenerateResource.Cache
+C:\Fiaz\DotNet\Sudoku\obj\Release\Sudoku1.exe
+C:\Fiaz\DotNet\Sudoku\obj\Release\Sudoku1.pdb

@@ -1,6 +1,8 @@
 ﻿using System;
 using NUnit.Framework;
 using Sudoku;
+using System.Reflection;
+using System.IO;
 
 namespace Sudoku.Tests
 {
@@ -26,8 +28,10 @@ namespace Sudoku.Tests
         [Test]
         public void LoadFile_ValidFile_CreatesSudokuArray()
         {
+           
             //act
-            var arr = sudo.LoadFile(@"C:\Fiaz\DotNet\input_sudoku.txt");
+            var path = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
+            var arr = sudo.LoadFile(path + @"\input_test_files\input_sudoku.txt");
 
             //assert
             Assert.That(arr, Is.All.Not.Null);
@@ -49,7 +53,8 @@ namespace Sudoku.Tests
             };
 
             //act
-            var arr = sudo.LoadFile(@"C:\Fiaz\DotNet\input_sudoku.txt");
+            var path = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
+            var arr = sudo.LoadFile(path + @"\input_test_files\input_sudoku.txt");
 
             //assert
             Assert.That(arr, Is.EquivalentTo(expected));
@@ -59,8 +64,9 @@ namespace Sudoku.Tests
         [Test]
         public void LoadFile_InValidFile_ExceptionThrown()
         {
-            //assert
-            Assert.That(() => sudo.LoadFile(@"C:\Fiaz\DotNet\some_invalid.txt"), 
+            
+            var path = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
+            Assert.That(() => sudo.LoadFile(path + @"\input_test_files\some_invalid.txt"), 
                         Throws.Exception);
         }
 
@@ -69,8 +75,8 @@ namespace Sudoku.Tests
         public void LoadFile_ExtraValues_IndexOutOfBoundExceptionThrown()
         {
 
-            //assert
-            Assert.That(() => sudo.LoadFile(@"C:\Fiaz\DotNet\input_sudoku_extraColumn.txt"),
+            var path = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
+            Assert.That(() => sudo.LoadFile(path + @"\input_test_files\input_sudoku_extraColumn.txt"),
                 Throws.TypeOf<IndexOutOfRangeException>());
         }
 

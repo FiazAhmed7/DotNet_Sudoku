@@ -1,0 +1,16 @@
+C:\Fiaz\DotNet\Sudoku\Sudoku.Tests\bin\Release\NUnit3.TestAdapter.dll
+C:\Fiaz\DotNet\Sudoku\Sudoku.Tests\bin\Release\nunit.engine.dll
+C:\Fiaz\DotNet\Sudoku\Sudoku.Tests\bin\Release\nunit.engine.api.dll
+C:\Fiaz\DotNet\Sudoku\Sudoku.Tests\bin\Release\Mono.Cecil.dll
+C:\Fiaz\DotNet\Sudoku\Sudoku.Tests\bin\Release\Mono.Cecil.Pdb.dll
+C:\Fiaz\DotNet\Sudoku\Sudoku.Tests\bin\Release\Mono.Cecil.Mdb.dll
+C:\Fiaz\DotNet\Sudoku\Sudoku.Tests\bin\Release\Mono.Cecil.Rocks.dll
+C:\Fiaz\DotNet\Sudoku\Sudoku.Tests\bin\Release\Sudoku.Tests.dll
+C:\Fiaz\DotNet\Sudoku\Sudoku.Tests\bin\Release\Sudoku.Tests.pdb
+C:\Fiaz\DotNet\Sudoku\Sudoku.Tests\bin\Release\nunit.framework.dll
+C:\Fiaz\DotNet\Sudoku\Sudoku.Tests\bin\Release\Sudoku1.exe
+C:\Fiaz\DotNet\Sudoku\Sudoku.Tests\bin\Release\Sudoku1.pdb
+C:\Fiaz\DotNet\Sudoku\Sudoku.Tests\bin\Release\nunit.framework.xml
+C:\Fiaz\DotNet\Sudoku\Sudoku.Tests\obj\Release\Sudoku.Tests.csprojResolveAssemblyReference.cache
+C:\Fiaz\DotNet\Sudoku\Sudoku.Tests\obj\Release\Sudoku.Tests.dll
+C:\Fiaz\DotNet\Sudoku\Sudoku.Tests\obj\Release\Sudoku.Tests.pdb
